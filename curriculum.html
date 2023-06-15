@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        .title{
+            text-align:center;
+            background-color:red;
+            color: white;
+        }
+        .class{
+            text-align: center;
+            background-color: gray;
+            color: white;
+        }
+        .time{
+            text-align: center;
+            background-color:blue;
+            color: white;
+        }
+        span{
+            width: 20px;
+            text-align: right;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <table width="400" border="1">
+        <tr>
+            <td class="title">姓名</td>
+            <td colspan="5">陳怡伶</td> 
+        </tr>
+        <tr>
+            <td class="title">學號</td>
+            <td colspan="5" >3411107076</td>
+        </tr>
+        <tr>
+            <td class="title">日期</td>
+            <td>星期一</td>
+            <td>星期二</td>
+            <td>星期三</td>
+            <td>星期四</td>
+            <td>星期五</td>
+        </tr>
+        <tr>
+            <td colspan="6" class="class">課表</td>
+        </tr>
+        <tr>
+            <td rowsapn="2" class="time">08:00~10:00</td>
+            <td rowsapn="2">休閒服務業管理</td>
+            <td>餐廳經營管理</td>
+            <td rowspan="2">旅館經營管理</td>
+            <td>生活美學</td>
+            <td>網頁設計</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td rowsapn="2">主題樂園管理</td>
+            <td>消費者行為</td>
+            <td rowsapn="2">休閒事業經營策略</td>
+            <td rowsapn="3">消費者行為</td>
+          
+           
+        </tr>
+        <tr>
+            <td rowsapn="2" class="time">10:00~12:00</td>
+            <td rowsapn="2" >休閒產業分析</td>
+            <td>領隊與導遊實務</td>
+            <td>休閒活動企劃</td>
+            <td>企業概論</td>
+          
+        </tr>
+</body>
+</html>
